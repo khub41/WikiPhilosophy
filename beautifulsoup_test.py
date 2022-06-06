@@ -1,7 +1,7 @@
+"""Testing BeautifulSoup to get the first link of a Wiki Article"""
+
 import requests
 from bs4 import BeautifulSoup
-
-import time
 
 
 def get_first_link(url):
